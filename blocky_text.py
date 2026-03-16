@@ -10,6 +10,9 @@ cat.shape("cat")
 cat.color("orange", "white")
 cat.speed(5)
 cat.penup()
+class Stage():
+  def __init__(self, size=1.0):
+    self.size=size
 def move(amount, object):
   try:
     object.fd(amount*2)
